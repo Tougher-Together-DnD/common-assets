@@ -1,0 +1,13 @@
+!import-table --%%TABLE-NAME%% --show
+!import-table-item --%%TABLE-NAME%% --new item one --1 --
+!import-table-item --%%TABLE-NAME%% --new item two --1 --
+!import-table-item --%%TABLE-NAME%% --new item number --1 --
+!import-table-item --%%TABLE-NAME%% --new item another --1 --
+!import-table-item --%%TABLE-NAME%% --new item something --1 --
+!import-table-item --%%TABLE-NAME%% --new item hey --1 --
+!import-table-item --%%TABLE-NAME%% --new item three --1 --
+!import-table-item --%%TABLE-NAME%% --new item four --1 --
+!import-table-item --%%TABLE-NAME%% --new item five --1 --
+
+<!-- To Use Copy above this line and paste into VTTES Table Import. -->
+<!-- Change "show" to "hide" to hide from players -->
