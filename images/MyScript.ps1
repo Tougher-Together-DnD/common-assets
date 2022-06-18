@@ -1,7 +1,16 @@
 # MyFunctions.ps1 contains one or more functions
 
 Write-Host "Welcome to the Party"
-function Test-Me($param1, $param2)
+function Test-Me($param1)
 {
-    "Hello from Test-Me with $param1, $param2"
+    $tmp = New-TemporaryFile
+
+@"
+This is a multiline test
+I think it $($param1) work
+"@ | Out-File $tmp
+
+Write-Host "Temp file at: $($tmp)"
 }
+
+
