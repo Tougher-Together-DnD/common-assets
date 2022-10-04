@@ -1,8 +1,0 @@
-# Utilize create-files.ps1 to loop through csv creating test data.
-
-Directory, Filename, Content
-# Example Line:
-# C:\folder\subfolder, test-me.txt, This is a test file.
-
-C:\Users\cmulligan\Documents\Test Data, test-data.txt, This is a test file.
-C:\Users\cmulligan\Documents\Test Data, good-name.txt, This is another test file.
